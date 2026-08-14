@@ -1,18 +1,17 @@
 # Snippets
 
-A collection of small, useful scripts and configuration snippets for daily SRE work.
+Useful Kubernetes and observability snippets, scripts, and configs.
 
-## Content
+## Contents
 
-- Kubernetes helpers
-- Observability dashboards (Grafana/Prometheus)
-- Shell one-liners and aliases
-- Random configs and notes
+- `k8s/` – kubectl and manifest snippets
+- `prometheus/` – PromQL and alerting rules
+- `grafana/` – dashboard JSON and dashboards as code
 
 ## Usage
 
-Each snippet is self-contained. Copy what you need and adapt to your environment.
+Each snippet is self-contained. Check the header comment for context.
 
-## License
+## Contributing
 
-MIT
+Personal repo – feel free to open an issue if something is broken.
